@@ -312,6 +312,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
+        ["npm:3.4.8", {
+          "packageLocation": "./.yarn/cache/@apollo-client-npm-3.4.8-69b6059fd9-aeff5913c4.zip/node_modules/@apollo/client/",
+          "packageDependencies": [
+            ["@apollo/client", "npm:3.4.8"]
+          ],
+          "linkType": "SOFT",
+        }],
         ["virtual:3abaf8659b7f75e7ce140d2c06d522e978d6226eac417ebf36051c97764a3b588bcb58f70620bbd1cad3ae8852a91aebfb284c9fd1dfbb25a981614ddb508ed3#npm:3.3.19", {
           "packageLocation": "./.yarn/$$virtual/@apollo-client-virtual-f8c6fdaa27/0/cache/@apollo-client-npm-3.3.19-39baf9f99e-a7266cfdff.zip/node_modules/@apollo/client/",
           "packageDependencies": [
@@ -345,29 +352,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["virtual:e7dd2bdbec1b3ec399e5f3318d0a58728583b58181f43cb8f4f372a1b2b9707e2ffcf76bd80aad3c5c64a731754028a8070020628ca4fa0a02fe260c179762ae#npm:3.3.19", {
-          "packageLocation": "./.yarn/$$virtual/@apollo-client-virtual-2c35870bed/0/cache/@apollo-client-npm-3.3.19-39baf9f99e-a7266cfdff.zip/node_modules/@apollo/client/",
+        ["virtual:e7dd2bdbec1b3ec399e5f3318d0a58728583b58181f43cb8f4f372a1b2b9707e2ffcf76bd80aad3c5c64a731754028a8070020628ca4fa0a02fe260c179762ae#npm:3.4.8", {
+          "packageLocation": "./.yarn/$$virtual/@apollo-client-virtual-763b0aeeb8/0/cache/@apollo-client-npm-3.4.8-69b6059fd9-aeff5913c4.zip/node_modules/@apollo/client/",
           "packageDependencies": [
-            ["@apollo/client", "virtual:e7dd2bdbec1b3ec399e5f3318d0a58728583b58181f43cb8f4f372a1b2b9707e2ffcf76bd80aad3c5c64a731754028a8070020628ca4fa0a02fe260c179762ae#npm:3.3.19"],
+            ["@apollo/client", "virtual:e7dd2bdbec1b3ec399e5f3318d0a58728583b58181f43cb8f4f372a1b2b9707e2ffcf76bd80aad3c5c64a731754028a8070020628ca4fa0a02fe260c179762ae#npm:3.4.8"],
             ["@graphql-typed-document-node/core", "virtual:f8c6fdaa271f1ee0e110162952087f7646a491c4b59eed6a9ea0b30a80f734dac1745b56bec8962209352f5900ba8dbffc07c3c8b824749f6247b241290ce9c0#npm:3.1.0"],
             ["@types/graphql", null],
             ["@types/react", null],
             ["@types/subscriptions-transport-ws", null],
-            ["@types/zen-observable", "npm:0.8.2"],
             ["@wry/context", "npm:0.6.0"],
-            ["@wry/equality", "npm:0.4.0"],
-            ["fast-json-stable-stringify", "npm:2.1.0"],
+            ["@wry/equality", "npm:0.5.2"],
+            ["@wry/trie", "npm:0.3.0"],
             ["graphql", "npm:15.5.0"],
-            ["graphql-tag", "virtual:409fb826ac6e59cdd1b24dae8477237c471ede269f927d24917396be043077512cf05f6577617aa2e3b4f2ebb81aabcd9bb5cf77b24c0edcb20c0c34d4147227#npm:2.12.4"],
+            ["graphql-tag", "virtual:763b0aeeb85ffb72fe32a1f54dd5e423042ac9f1c6692c8155a85f6b6984adb86c19db33f573e10892a5ad885410188bca05651e1f88a1ca45abcf0ecb947e40#npm:2.12.5"],
             ["hoist-non-react-statics", "npm:3.3.2"],
             ["optimism", "npm:0.16.1"],
             ["prop-types", "npm:15.7.2"],
             ["react", "npm:17.0.2"],
             ["subscriptions-transport-ws", null],
-            ["symbol-observable", "npm:2.0.3"],
-            ["ts-invariant", "npm:0.7.3"],
-            ["tslib", "npm:1.14.1"],
-            ["zen-observable", "npm:0.8.15"]
+            ["symbol-observable", "npm:4.0.0"],
+            ["ts-invariant", "npm:0.9.1"],
+            ["tslib", "npm:2.3.1"],
+            ["zen-observable-ts", "npm:1.1.0"]
           ],
           "packagePeers": [
             "@types/graphql",
@@ -5017,7 +5023,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/renderer/",
           "packageDependencies": [
             ["@lowdefy/renderer", "workspace:packages/renderer"],
-            ["@apollo/client", "virtual:e7dd2bdbec1b3ec399e5f3318d0a58728583b58181f43cb8f4f372a1b2b9707e2ffcf76bd80aad3c5c64a731754028a8070020628ca4fa0a02fe260c179762ae#npm:3.3.19"],
+            ["@apollo/client", "virtual:e7dd2bdbec1b3ec399e5f3318d0a58728583b58181f43cb8f4f372a1b2b9707e2ffcf76bd80aad3c5c64a731754028a8070020628ca4fa0a02fe260c179762ae#npm:3.4.8"],
             ["@apollo/link-context", "npm:2.0.0-beta.3"],
             ["@apollo/link-error", "npm:2.0.0-beta.3"],
             ["@apollo/link-retry", "npm:2.0.0-beta.3"],
@@ -6547,6 +6553,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/zen-observable", "npm:0.8.2"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:0.8.3", {
+          "packageLocation": "./.yarn/cache/@types-zen-observable-npm-0.8.3-b3fac445d1-ec75e17c77.zip/node_modules/@types/zen-observable/",
+          "packageDependencies": [
+            ["@types/zen-observable", "npm:0.8.3"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["@webassemblyjs/ast", [
@@ -7572,6 +7585,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@wry/equality", "npm:0.4.0"],
             ["tslib", "npm:2.2.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:0.5.2", {
+          "packageLocation": "./.yarn/cache/@wry-equality-npm-0.5.2-08a09f707d-cdc497fbc9.zip/node_modules/@wry/equality/",
+          "packageDependencies": [
+            ["@wry/equality", "npm:0.5.2"],
+            ["tslib", "npm:2.3.1"]
           ],
           "linkType": "HARD",
         }]
@@ -15392,10 +15413,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
+        ["npm:2.12.5", {
+          "packageLocation": "./.yarn/cache/graphql-tag-npm-2.12.5-2219ffa124-db32429267.zip/node_modules/graphql-tag/",
+          "packageDependencies": [
+            ["graphql-tag", "npm:2.12.5"]
+          ],
+          "linkType": "SOFT",
+        }],
         ["virtual:409fb826ac6e59cdd1b24dae8477237c471ede269f927d24917396be043077512cf05f6577617aa2e3b4f2ebb81aabcd9bb5cf77b24c0edcb20c0c34d4147227#npm:2.12.4", {
           "packageLocation": "./.yarn/$$virtual/graphql-tag-virtual-9263871276/0/cache/graphql-tag-npm-2.12.4-0af5217688-01623ede35.zip/node_modules/graphql-tag/",
           "packageDependencies": [
             ["graphql-tag", "virtual:409fb826ac6e59cdd1b24dae8477237c471ede269f927d24917396be043077512cf05f6577617aa2e3b4f2ebb81aabcd9bb5cf77b24c0edcb20c0c34d4147227#npm:2.12.4"],
+            ["@types/graphql", null],
+            ["graphql", "npm:15.5.0"],
+            ["tslib", "npm:2.2.0"]
+          ],
+          "packagePeers": [
+            "@types/graphql",
+            "graphql"
+          ],
+          "linkType": "HARD",
+        }],
+        ["virtual:763b0aeeb85ffb72fe32a1f54dd5e423042ac9f1c6692c8155a85f6b6984adb86c19db33f573e10892a5ad885410188bca05651e1f88a1ca45abcf0ecb947e40#npm:2.12.5", {
+          "packageLocation": "./.yarn/$$virtual/graphql-tag-virtual-83f31a8e86/0/cache/graphql-tag-npm-2.12.5-2219ffa124-db32429267.zip/node_modules/graphql-tag/",
+          "packageDependencies": [
+            ["graphql-tag", "virtual:763b0aeeb85ffb72fe32a1f54dd5e423042ac9f1c6692c8155a85f6b6984adb86c19db33f573e10892a5ad885410188bca05651e1f88a1ca45abcf0ecb947e40#npm:2.12.5"],
             ["@types/graphql", null],
             ["graphql", "npm:15.5.0"],
             ["tslib", "npm:2.2.0"]
@@ -26641,6 +26683,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["symbol-observable", "npm:2.0.3"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:4.0.0", {
+          "packageLocation": "./.yarn/cache/symbol-observable-npm-4.0.0-5c36594410-6d184cd370.zip/node_modules/symbol-observable/",
+          "packageDependencies": [
+            ["symbol-observable", "npm:4.0.0"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["symbol-tree", [
@@ -27530,6 +27579,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tslib", "npm:2.2.0"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:0.9.1", {
+          "packageLocation": "./.yarn/cache/ts-invariant-npm-0.9.1-4acfaa2fb0-a8f37248fc.zip/node_modules/ts-invariant/",
+          "packageDependencies": [
+            ["ts-invariant", "npm:0.9.1"],
+            ["tslib", "npm:2.2.0"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["tsconfig-paths", [
@@ -27564,6 +27621,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/tslib-npm-2.2.0-e83a07daa5-2d35468c47.zip/node_modules/tslib/",
           "packageDependencies": [
             ["tslib", "npm:2.2.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:2.3.1", {
+          "packageLocation": "./.yarn/cache/tslib-npm-2.3.1-0e21e18015-5ae2f209c5.zip/node_modules/tslib/",
+          "packageDependencies": [
+            ["tslib", "npm:2.3.1"]
           ],
           "linkType": "HARD",
         }]
@@ -30718,6 +30782,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["zen-observable-ts", "npm:0.8.21"],
             ["tslib", "npm:1.14.1"],
+            ["zen-observable", "npm:0.8.15"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:1.1.0", {
+          "packageLocation": "./.yarn/cache/zen-observable-ts-npm-1.1.0-82f7da2594-daae0a5afd.zip/node_modules/zen-observable-ts/",
+          "packageDependencies": [
+            ["zen-observable-ts", "npm:1.1.0"],
+            ["@types/zen-observable", "npm:0.8.3"],
             ["zen-observable", "npm:0.8.15"]
           ],
           "linkType": "HARD",
